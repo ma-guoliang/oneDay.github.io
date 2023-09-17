@@ -1,0 +1,26 @@
+/* styles3.css */
+
+/* 重置默认样式 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* 居中容器水平布局 */
+.container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: stretch; /* 垂直方向铺满 */
+    height: 100%; /* 使用100%的高度来铺满整个视口 */
+}
+
+.left {
+    flex: 20; /* 左边部分占据20%的宽度 */
+    background-color: #2e75b6; /* 左边部分颜色 */
+}
+
+.right {
+    flex: 51; /* 右边部分占据51%的宽度 */
+    background-color: #98d4d4; /* 右边部分颜色 */
+}

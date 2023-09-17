@@ -1,0 +1,54 @@
+/* styles5.css */
+
+/* 重置默认样式 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* 居中容器水平布局和垂直方向铺满 */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.section1 {
+    background-color: #003f7f; /* 第一部分颜色 */
+    flex: 3; /* 占据总高度的300% */
+}
+
+.section2 {
+    background-color: #1f4e79; /* 第二部分颜色 */
+    flex: 2; /* 占据总高度的198% */
+}
+
+.section3 {
+    background-color: #fff; /* 第三部分颜色 */
+    flex: 6.2; /* 占据总高度的620% */
+    display: flex;
+    flex-direction: row; /* 水平排列子元素 */
+}
+
+.left {
+    background-color: #00b0f0; /* 左侧部分颜色 */
+    flex: 5; /* 占据总宽度的5% */
+}
+
+.middle {
+    background-color: #98d4d4; /* 中间部分颜色 */
+    flex: 7.3; /* 占据总宽度的7.3% */
+}
+
+.right {
+    background-color: #00b0f0; /* 右侧部分颜色 */
+    flex: 5; /* 占据总宽度的5% */
+}
+
+.section4 {
+    background-color: #003f7f; /* 第四部分颜色 */
+    flex: 1.75; /* 占据总高度的175% */
+}

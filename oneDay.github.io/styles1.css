@@ -1,0 +1,32 @@
+
+/* 重置默认样式 */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置背景颜色为蓝色 */
+body {
+    background-color: #98d4d4;
+}
+
+/* 页面内容容器 */
+.container {
+    width: 100%;
+    max-width: 1200px; /* 设置最大宽度，使内容不会无限扩展 */
+    margin: 0 auto; /* 水平居中 */
+    padding: 20px; /* 添加一些内边距 */
+    background-color: #fff; /* 页面内容块的背景颜色，这里设置为白色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+/* 添加其他样式，如标题和段落样式 */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
